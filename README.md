@@ -10,11 +10,12 @@ Given a sentence, the model identifies:
 3. **Sentiment Intensity** — fine-grained scores representing sentiment strength.  
 
 **Example**  
-``Input: E0002:S002, 不僅餐點美味上菜速度也是飛快耶！！
+```
+Input: E0002:S002, 不僅餐點美味上菜速度也是飛快耶！！
 Output: E0002:S002
 (餐點, 美味, 6.63#4.63)
 (上菜速度, 飛快, 7.25#6.00)
-``
+```
 
 ## 🏗️ Model Architecture
-![Model Architecture](./model.png)
+![Model Architecture](./model.svg)
